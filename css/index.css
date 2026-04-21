@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+html, body{ scroll-behavior: smooth;}
+body{ padding: 0; margin: 0; }
+
+.landing{
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../asset/img/img10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.hero-txt h1{ font-size: 110px; margin-top: 150px; margin-bottom: 18px;}
+
+.hero-txt p{ font-size: 24px; margin-top: -18px;}
+
